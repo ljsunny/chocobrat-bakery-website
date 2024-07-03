@@ -21,27 +21,234 @@ button {
     border: 1px solid #4a1d1f;
     border-radius: 3px;
 }
+
 .brown-title, .ceo, .company, .bigger-letter {
     color: #4a1d1f;
+}
+
+#first-pic {
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+
+#second-pic {
+    display: block;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.second-3 {
+    display: flex;
+    width: 100%;
+    height: 367px;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #fbedcd;
 }
 
 .read-more{
     color: #4a1d1f;
 }
 
+.second-3 {
+    display: block;
+    text-align: center;
+}
+
+.bigger-letter {
+    padding-top: 73px;
+    padding-bottom: 20px;
+    font-size: 27pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing : -1px;
+}
+
+.smaller-letter {
+    font-size: 15pt;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(58, 58, 58);
+}
+
 .contact-us{
+    width: 201px;
+    height: 56px;
+    margin-top: 30px;
     background: #4a1d1f;
     color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 13pt;
+    border-radius: 5px;
+}
+
+.quote-button {
+    padding: 3px 7px 3px 7px;
+    font-size: 9pt;
+    border-radius: 15px;
+    color: #4a1d1f;
+    background-color: #fbedcd;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 100%;
+    height: 1022px;
+}
+
+.background-left {
+    position: absolute;
+    top: 23%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    opacity: 1; 
+    pointer-events: none; /*to ensure the image doesn't interfere with text interaction */
+    z-index: 1;
+}
+
+.background-right {
+    position: absolute;
+    top: 45%;
+    right: 9%;
+    transform: translate(-50%, -50%);
+    opacity: 1; 
+    pointer-events: none; 
+    z-index: 1;
+}
+
+.quote-section {
+    width: 100%;
+    height: 682px;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.quote-section h2 {
+    color: #333;
+    font-size: 38pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    position: relative;
+    z-index: 2; /* Set z-index higher than the image */
+    background: none; /* Ensure no background color is set */
+}
+
+.quote-ceo {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.quote-ceo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.quote-ceo h3 {
+    font-size: 19pt;
+    color: #6e3838;
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -1.5;
+}
+
+.quote-ceo p {
+    font-size: 13pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(58, 58, 58);
+}
+
+footer {
+    background-color: #fbedcd;
+    height: 380px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 20px 40px;
+}
+
+footer .company {
+    font-size: 25pt;
+    color: #6e3838;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.8pt;
+    padding-left: 90px;
+    padding-top: 80px;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 45px;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 15pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.5pt;
 }
 
 hr {
     width: 1440px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px 0;
 }
 
-footer {
+.footer-bottom {
     display: flex;
-    width: 100%;
-    height: 380px;
-    background: #fbedcd;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: rgb(58, 58, 58);
+    padding-left: 130px;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+footer .sns-links {
+    display: flex;
+    gap: 30px;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 160px;
 }
 
