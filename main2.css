@@ -17,6 +17,15 @@ html, body {
     font-family: "Poppins", sans-serif;
 }
 
+.description {
+    display: flex;
+    width: 100%;
+    height: 367px;
+    background-color: #dea31a;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
 button {
     border: 1px solid #4a1d1f;
     border-radius: 3px;
@@ -29,16 +38,19 @@ button {
 #first-pic {
     display: block;
     float: right;
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #second-pic {
     display: block;
     float: left;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 50px;
 }
 
-.second-3 {
+.second-bottom {
     display: flex;
     width: 100%;
     height: 367px;
