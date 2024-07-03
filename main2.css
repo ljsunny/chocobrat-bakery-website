@@ -18,36 +18,73 @@ html, body {
 }
 
 .description {
-    display: flex;
+    display: block;
     width: 100%;
     height: 367px;
-    background-color: #dea31a;
-    justify-content: space-between;
-    align-items:flex-start;
-}
-
-button {
-    border: 1px solid #4a1d1f;
-    border-radius: 3px;
-}
-
-.brown-title, .ceo, .company, .bigger-letter {
     color: #4a1d1f;
+    padding-top: 30px;
+}
+
+.baking-left h2, 
+.baking-right h2 {
+    font-size: 33pt;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.baking-left h3, 
+.baking-right h3 {
+    font-size: 15pt;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(58, 58, 58);
+    padding-top: 20px;
+}
+
+.baking-left {
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.baking-right {
+    padding-right: 50px;
+    padding-top: 210px;
+}
+
+.baking-right h2 {
+    padding-left: 100px;
+}
+
+.baking-right h3 {
+    padding-right: 10px;
+}
+
+button.read-more {
+    border-radius: 3px;
+    font-size: 15pt;
+    margin-top: 40px;
+    border: none;
+    color: #4a1d1f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: none;
 }
 
 #first-pic {
     display: block;
     float: right;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 70px;
 }
 
 #second-pic {
     display: block;
     float: left;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 27px;
     margin-bottom: 50px;
+    margin-top: 160px;
 }
 
 .second-bottom {
@@ -63,7 +100,7 @@ button {
     color: #4a1d1f;
 }
 
-.second-3 {
+.second-bottom {
     display: block;
     text-align: center;
 }
@@ -76,6 +113,7 @@ button {
     font-weight: 700;
     font-style: normal;
     letter-spacing : -1px;
+    color: #4a1d1f;
 }
 
 .smaller-letter {
@@ -204,7 +242,7 @@ footer .footer-content {
 }
 
 footer .company {
-    font-size: 25pt;
+    font-size: 24pt;
     color: #6e3838;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
