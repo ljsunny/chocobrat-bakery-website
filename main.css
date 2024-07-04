@@ -334,7 +334,7 @@ main .eclipse {
 
 .baking-right {
     padding-right: 50px;
-    padding-top: 210px;
+    padding-top: 150px;
 }
 
 .baking-right h2 {
@@ -386,6 +386,20 @@ button.read-more {
     color: #4a1d1f;
 }
 
+button.read-more a:link,
+button.read-more a:visited {
+    color: #4a1d1f;
+}
+
+button.read-more a:hover {
+    color: rgb(253, 165, 98);
+}
+
+button.read-more a:active {
+    color: rgb(187, 93, 16);
+}
+
+
 .second-bottom {
     display: block;
     text-align: center;
@@ -411,7 +425,7 @@ button.read-more {
     color: rgb(58, 58, 58);
 }
 
-.contact-us{
+.contact-us {
     width: 201px;
     height: 56px;
     margin-top: 30px;
@@ -420,6 +434,19 @@ button.read-more {
     font-family: "Poppins", sans-serif;
     font-size: 13pt;
     border-radius: 5px;
+}
+
+button.contact-us a:link,
+button.contact-us a:visited {
+    color: white;
+}
+
+button.contact-us a:hover {
+    color: rgb(253, 165, 98);
+}
+
+button.contact-us a:active {
+    color: rgb(187, 93, 16);
 }
 
 .quote-button {
